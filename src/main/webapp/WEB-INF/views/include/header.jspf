@@ -35,7 +35,7 @@
        'use strict';
        
         jQuery('#headerwrap').backstretch([
-          "resources/img/bg/bg1.jpg",
+          "resources/img/bg/bg4.jpg",
           "resources/img/bg/bg5.jpg",
           "resources/img/bg/bg6.jpg"
         ], {duration: 8000, fade: 800});
@@ -64,12 +64,6 @@
 
 <body>
 
-    <div class="preloader">
-        <div class="preloader-img">
-        	<img src="resources/img/loading-spin.svg" width="100" alt="Loading icon" />
-        </div>
-    </div>
-
     <div id="searchwrapper" class="sb-slide">
     	<div class="container">
 	    	<div id="search">
@@ -91,49 +85,16 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <h2><a class="navbar-brand" href="index.html">미도리</a></h2>
+                <h2><a class="navbar-brand" href="/">미도리</a></h2>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown">
                         <a href="/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Home</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Blog <span class="pe-7s-angle-down"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="category-grid.html">Category Grid</a></li>
-                            <li><a href="category-traditional.html">Category Traditional</a></li>
-                            <li><a href="single-post.html">Single Post</a></li>
-                            <li><a href="single-post-fullwidth.html">Single Post Fullwidth</a></li>
-                            <li><a href="single-post-sidebar.html">Single Post Sidebar</a></li>
-                            <li><a href="single-post-gallery.html">Single Post Gallery</a></li>
-                            <li><a href="single-post-lightbox-gallery.html">Single Post Lightbox Gallery</a></li>
-                            <li><a href="single-post-video.html">Single Post Video</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Portfolio <span class="pe-7s-angle-down"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="portfolio-grid.html">Portfolio Grid</a></li>
-                            <li><a href="single-portfolio.html">Single Portfolio</a></li>
-                            <li><a href="single-portfolio-video.html">Single Portfolio Video</a></li>
-                            <li><a href="single-portfolio-large.html">Single Portfolio Fullscreen</a></li>
-                            <li><a href="single-portfolio-video-large.html">Single Portfolio Fullscreen Video</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Shop <span class="pe-7s-angle-down"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="index-shop.html">Shop</a></li>
-                            <li><a href="single-product.html">Single Product</a></li>
-                            <li><a href="shopping-cart.html">Shopping Cart</a></li>
-                        </ul>
-                    </li>
+                    </li>                    
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">게시판</a>
-                    </li>
-
-                    <li><a id="searchtrigger" href="#"><i class="fa fa-search"></i></a></li>
+                    </li>                    
                 </ul>
             </div>
         </div>
